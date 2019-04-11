@@ -45,10 +45,10 @@ header{
 
 
 a.portfolio{
-    margin: 0px 15px;
+    margin: 0px 0px 0px 15px;
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
-    padding: 0px 15px;
+    padding: 0px 15px 0px 15px;
 }
 
 .title{
