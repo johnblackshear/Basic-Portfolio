@@ -1,19 +1,32 @@
+#page-container{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    padding-bottom: 60px;
+    
+}
+
+#content-wrap{
+    padding-bottom: 60px;
+}
+
 header{
     margin: 0;
-    padding: 0;
+    padding-bottom: 0;
     text-align: center;
     height: 80px;
     width: 100%;
     background-color: #ffffff;
     border-bottom: 2px solid #dddddd;
+    margin-bottom: 40px;
 }
 
 .wrapper{
     height: 100%;
     width: 80%;
     display: inline-block;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
 }
 
 .links{
@@ -54,12 +67,10 @@ a.portfolio{
 }
 
 section{
-
     width:960px;
     margin-left: 220px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    margin-top: 30px;
 }
 
 .main_header{
@@ -69,9 +80,7 @@ section{
     border-bottom: 3px solid #cccccc;
     font-family: 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    font-size: 20px;
-    
-    
+    font-size: 20px;   
 }
 
 .main{
@@ -90,6 +99,11 @@ img.profile_img{
     margin: 0px 25px 25px 0px;
 }
 
+img.img1{
+    height: 200px;
+    margin: 0px 25px 25px 0px;
+}
+
 footer{
     position: absolute;
     bottom: 0;
@@ -103,6 +117,7 @@ footer{
 
 body{
     background-color: #ececec;
-    
+    height: 100%;
+    position: relative;
 
 }
